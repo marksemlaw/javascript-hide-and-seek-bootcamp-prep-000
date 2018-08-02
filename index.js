@@ -16,8 +16,9 @@ function deepestChild(){
   let id = 'div#grand-node'
   let div = ' div'
   let query = document.querySelectorAll(id)
-  while (query){
-    id + div
+  while (query !== null){
+    id = id =+ div
+    let answer = query
   }
-  return query
+  return answer
 }
