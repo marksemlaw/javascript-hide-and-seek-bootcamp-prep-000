@@ -13,8 +13,8 @@ function increaseRankBy(n){
 }}
 
 function deepestChild(){
-  let id = 'div#grand-node'
-  let div = ' div'
+  let grandnode = document.querySelectorAll('div#grand-node')
+  let nextnode = grandnote.children[0]
   let query = document.querySelectorAll(id)
   while (query !== null){
     id = id =+ div
